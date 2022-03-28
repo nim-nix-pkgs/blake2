@@ -11,7 +11,6 @@
   inputs.src-blake2-master.ref   = "refs/heads/master";
   inputs.src-blake2-master.owner = "narimiran";
   inputs.src-blake2-master.repo  = "blake2";
-  inputs.src-blake2-master.dir   = "";
   inputs.src-blake2-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
